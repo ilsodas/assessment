@@ -29,14 +29,23 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                        Ilsoda Musa M (Assessment)
                     </a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
-                        &nbsp;
+                      <li>
+                        <a href="/">
+                          HOME
+                        </a>
+                      </li>
+                        <li>
+                          <a href="{{ route('people.index') }}">
+                            SHOW ALL
+                          </a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
